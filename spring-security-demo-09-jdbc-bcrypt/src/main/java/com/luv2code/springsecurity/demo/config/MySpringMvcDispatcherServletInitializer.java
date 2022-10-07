@@ -16,7 +16,7 @@ public class MySpringMvcDispatcherServletInitializer extends AbstractAnnotationC
 		return new Class[] { DemoAppConfig.class };
 	}
 
-	@Override // DEFINISE ZAPRAVO PRVU INDEX STRANU
+	@Override // DEFINISE ZAPRAVO PRVU INDEX STRANU, ROOT STRANA
 	protected String[] getServletMappings() {
 
 
